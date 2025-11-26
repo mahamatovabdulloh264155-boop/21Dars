@@ -1,0 +1,34 @@
+.ota {
+  width: 200px;
+  height: 200px;
+  background: red;
+  position: relative;
+
+  animation: Abdulloh 4s linear infinite;
+}
+
+@keyframes Abdulloh {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 400px; 
+    top: 0;
+    background-color: pink;
+  }
+  50% {
+    left: 400px;  
+    top: 400px;
+    background-color: black;
+  }
+  75% {
+    left: 0;       
+    top: 400px;
+    background-color: yellow;
+  }
+  100% {
+    left: 0;     
+    top: 0;
+  }
+}
